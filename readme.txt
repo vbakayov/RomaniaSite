@@ -3,4 +3,6 @@ Website: 		http://www.vbakayov.github.io
 Contact: 		viktorbakayov@gmail.com
 
 
-Happy coding!  
+Happy coding!
+
+
