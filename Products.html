@@ -27,7 +27,7 @@
         <link href="Resources/css/style.css" rel="stylesheet" type="text/css"/>
         <link href="Resources/css/global/global.css" rel="stylesheet" type="text/css"/>
 
-        
+
         <!-- Favicon -->
         <!--<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">-->
         <!--<link rel="apple-touch-icon" href="img/apple-touch-icon.png">-->
@@ -151,15 +151,39 @@
                 <div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">
                     <nav class="nav-sidebar">
                         <ul class="nav tabs ">
-                            <div id="all" data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show All</div>
-                            <div id="pokrivki"  onclick="click()" data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Битови покривки</div>
-                            <div id="vulneniDebeliTsvetni" onclick="click()" data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Вълнене дебели цветни</div>
-                            <div data-filter=".vulneniEstestveni" class="s-portfolio__filter-v1-item cbp-filter-item">Вълнене дебели естествени</div>
-                            <div data-filter=".agne" class="s-portfolio__filter-v1-item cbp-filter-item">памучни одеала кара</div>
-                            <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Памучно жакардови одеяла</div>
-                            <div data-filter=".olekoteni" class="s-portfolio__filter-v1-item cbp-filter-item">Олекотени одеяла</div>
-                            <div data-filter=".agne" class="s-portfolio__filter-v1-item cbp-filter-item">Одеяла от агнешка вълна</div>
-                            <div data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Други</div>
+                            <li id="all" data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item cbp-filter-item-active">Show All</li>
+                            <!--<li id="pokrivki"  onclick="click()" data-filter=".logos" class="s-portfolio__filter-v1-item cbp-filter-item">Битови покривки</li>-->
+
+                            <li class="dropdown  cbp-filter-item  ">
+                                <a href="#" id="pokrivki"   data-filter=".logos" class=" wrapper-dropdown-3 dropdown-toggle  s-portfolio__filter-v1-item " data-toggle="dropdown">Битови покривки<b class=""></b></a>
+                                <ul class="dropdown-menu multi-column columns-2">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="#">Вълнени Дебели Цветни</a></li>
+                                                <li><a href="#">Вълнени Дебели Естествени</a></li>
+                                                <li><a href="#">Вълнени Дебели Естествени</a></li>
+                                                <li><a href="#">Памучни одеала кара</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <ul class="multi-column-dropdown">
+                                                <li><a href="#">Памучни жакардоши одеала</a></li>
+                                                <li><a href="#">Олекотени Одеала</a></li>
+                                                <li><a href="#">Одеала от агнешка вълна</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </li>
+
+                            <li id="vulneniDebeliTsvetni" onclick="click()" data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item">Вълнене дебели цветни</li>
+                            <li data-filter=".vulneniEstestveni" class=" hoover s-portfolio__filter-v1-item cbp-filter-item">Вълнене дебели естествени</li>
+                            <li data-filter=".agne" class=" hoover s-portfolio__filter-v1-item cbp-filter-item">памучни одеала кара</li>
+                            <li data-filter=".motion" class=" hoover s-portfolio__filter-v1-item cbp-filter-item">Памучно жакардови одеяла</li>
+                            <li data-filter=".olekoteni" class="s-portfolio__filter-v1-item cbp-filter-item">Олекотени одеяла</li>
+                            <li data-filter=".agne" class="s-portfolio__filter-v1-item cbp-filter-item">Одеяла от агнешка вълна</li>
+                            <li data-filter=".motion" class="s-portfolio__filter-v1-item cbp-filter-item">Други</li>
                         </ul>
 
                     </nav>
