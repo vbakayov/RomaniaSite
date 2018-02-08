@@ -7,7 +7,7 @@ html {
 
 .spec {
   text-align: center;
-  margin-bottom: 3em;
+  padding-top: 3em;
 }
 
 
@@ -2295,7 +2295,7 @@ fieldset[disabled] .s-btn {
 ------------------------------------*/
 .s-portfolio__filter-v1-item {
   font-size: 0.8125rem;
-  color: #656565 !important;
+  /*color: #656565 !important;*/
   text-transform: uppercase;
   margin-bottom: 0 !important;
 }
@@ -2305,7 +2305,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-portfolio__filter-v1-item.cbp-filter-item-active {
-  color: #13b1cd !important;
+  /*color: #13b1cd !important;*/
   border-bottom: 2px solid #13b1cc;
 }
 
@@ -2349,13 +2349,13 @@ fieldset[disabled] .s-btn {
   left: 0;
   right: 0;
   text-align: center;
-  padding: 1.875rem;
+  /*padding: 1.875rem;*/
   opacity: 0;
-  -webkit-transform: translate3d(0, 100%, 0);
-  transform: translate3d(0, 100%, 0);
+  /*-webkit-transform: translate3d(0, 100%, 0);*/
+  /*transform: translate3d(0, 100%, 0);*/
   transition-duration: 400ms;
   transition-property: all;
-  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  /*transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);*/
 }
 
 .s-portfolio__item:hover .s-portfolio__caption-hover--cc {
