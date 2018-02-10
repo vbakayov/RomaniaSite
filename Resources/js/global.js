@@ -5,18 +5,19 @@ var Global = function() {
 
     var menuLeft = document.getElementById( 'pokrivki' ),
         menuRight = document.getElementById( 'vulneniDebeliTsvetni' ),
-        // menuTop = document.getElementById( 'cbp-spmenu-s3' ),
-        // menuBottom = document.getElementById( 'cbp-spmenu-s4' ),
-        // showRight = document.getElementById( 'showRight' ),
-        elementText = document.getElementById('productText');
+        elementText = document.getElementById('productText'),
+        allBox = document.getElementById('all');
+
+
 
     console.log(menuLeft);
+    allBox.addEventListener("click", function() {click(allBox.id)} );
     menuLeft.addEventListener("click", function() {click(menuLeft.id)} );
     menuRight.addEventListener("click", function() {click(menuRight.id)} );
 
     function click(elementId)
     {
-
+         // me.addClass('cbp-filter-item-active').siblings().removeClass('cbp-filter-item-active');
         console.log(elementId);
          if (elementId === "pokrivki")
         {
@@ -29,6 +30,9 @@ var Global = function() {
             elementText.innerText = "vulneniDebeliTekst";
 
         }
+        else if(elementId === "all"){
+             // jQuery('#all').addClass('cbp-filter-item-active');
+         }
     }
 
   // Bootstra Components
