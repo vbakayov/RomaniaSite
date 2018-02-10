@@ -23,10 +23,14 @@
         <link href="Resources/vendor/scrollbar/scrollbar.min.css" rel="stylesheet" type="text/css"/>
         <link href="Resources/vendor/swiper/swiper.min.css" rel="stylesheet" type="text/css"/>
         <link href="Resources/vendor/cubeportfolio/css/cubeportfolio.min.css" rel="stylesheet" type="text/css"/>
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css">
         <!-- Theme Styles -->
         <link href="Resources/css/style.css" rel="stylesheet" type="text/css"/>
         <link href="Resources/css/global/global.css" rel="stylesheet" type="text/css"/>
+        <!--<link href="Resources/css/owl.carousel.css" rel="stylesheet" type="text/css"/>-->
+        <!--&lt;!&ndash; Default Theme &ndash;&gt;-->
+        <!--<link rel="stylesheet" href="Resources/css/owl.theme.default.css">-->
+
 
 
         <!-- Favicon -->
@@ -148,18 +152,37 @@
         <!--========== PAGE CONTENT ==========-->
 
         <div class="spec cool-bg">
-            <h3>Featuring</h3>
-            <div class="ser-t">
-                <b></b>
-                <span><i></i></span>
-                <b class="line"></b>
-                <div class="container g-padding-y-100--xs">
+                <h3>Featured Products</h3>
+                <div class="ser-t">
+                    <b></b>
+                    <span><i></i></span>
+                    <b class="line"></b>
+                    <div class="container g-padding-y-100--xs"></div>
+                </div>
+
+
+
+
+
+                <!-- Flickity HTML init -->
+            <div class="row">
+                <div class="gallery js-flickity col-md-8 center-block card-4 ih-item square" style="float: none; margin-bottom: 60px"
+                     data-flickity-options='{ "freeScroll": true, "wrapAround": true }'>
+                    <div class="gallery-cell">
+                        <img class="carousel-cell-image fill"
+                             src="Resources/img/dunavska_cherveno/2.jpg"  />
+
+                    </div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                    <div class="gallery-cell"></div>
+                </div>
             </div>
         </div>
         <!-- Products Filter -->
 
 
-        </div>
         <!-- End Portfolio Filter -->
 
         <div class="js__parallax-window" style="background: url(Resources/img/dunavska_cherveno/4.jpg) 50% 25px no-repeat fixed;">
@@ -589,6 +612,7 @@
         <!--========== END FOOTER ==========-->
 
 
+        </div>
 
 
         <!-- Back To Top -->
@@ -615,9 +639,52 @@
         <script type="text/javascript" src="Resources/js/components/wow.min.js"></script>
 
 
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+
+
+
+        <!--<script>-->
+                <!--$(document).ready(function() {-->
+
+                    <!--//<![CDATA[-->
+                    <!--jQuery(function($) {-->
+
+                        <!--var owl = $('#myslider');-->
+                        <!--owl.owlCarousel({-->
+
+                            <!--lazyLoad: true,-->
+
+                            <!--itemsCustom: [ [0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5] ],-->
+                            <!--responsiveRefreshRate: 50,-->
+
+                            <!--slideSpeed: 200,-->
+
+                            <!--paginationSpeed: 500,-->
+
+
+                            <!--autoPlay: 6000,-->
+
+                            <!--stopOnHover: true,-->
+
+                            <!--rewindNav: true,-->
+                            <!--rewindSpeed: 600,-->
+
+                            <!--pagination: true,-->
+                            <!--paginationSpeed: 600,-->
+
+                            <!--navigation: true,-->
+                            <!--navigationText: false-->
+
+                        <!--}); //end: owl-->
+
+                    <!--});-->
+
+                <!--});-->
+        <!--</script>-->
+
+
 
         <!--========== END JAVASCRIPTS ==========-->
-
 
 
     </body>
