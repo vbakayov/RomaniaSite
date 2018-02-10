@@ -28,6 +28,29 @@
   /*text-decoration: none;*/
 /*}*/
 
+.bgSizeCover {
+    background: url(../../../Resources/img/dunavska_cherveno/red_new.jpg);
+    background-repeat:no-repeat;
+    background-position:center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    padding-top: 100px;
+    padding-bo: 100px;
+}
+
+/*.navbar-fixed-top{*/
+    /*background: url(../../../Resources/img/dunavska_cherveno/red_new.jpg);*/
+    /*background-repeat:no-repeat;*/
+    /*background-position:center;*/
+    /*-webkit-background-size:cover;*/
+    /*-moz-background-size:cover;*/
+    /*-o-background-size:cover;*/
+    /*background-size:cover;*/
+
+/*}*/
+
 .btn {
   background: #ffae21;
   background-image: -webkit-linear-gradient(top, #ffae21, #f79c00);
@@ -6954,8 +6977,8 @@
     padding-bottom: 7.5rem;
   }
   .g-padding-y-125--sm {
-    padding-top: 7.8125rem;
-    padding-bottom: 7.8125rem;
+    /*padding-top: 7.8125rem;*/
+    /*padding-bottom: 7.8125rem;*/
   }
   .g-padding-y-130--sm {
     padding-top: 8.125rem;
