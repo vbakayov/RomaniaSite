@@ -36,8 +36,8 @@
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-    padding-top: 100px;
-    padding-bo: 100px;
+    /*padding-top: 50px;*/
+    /*padding-bottom: 100px;*/
 }
 
 /*.navbar-fixed-top{*/
