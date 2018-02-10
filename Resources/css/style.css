@@ -32,8 +32,32 @@ body { font-family: sans-serif; }
   background: #8C8;
   counter-increment: gallery-cell;
 }
+/*.card {*/
 
+  /*content: url("../../Resources/img/dunavska_cherveno/2.jpg")*/
+/*}*/
+/*.card:hover {*/
+  /*content: url("../../Resources/img/dunavska_cherveno/4.jpg")*/
+/*}*/
 
+.zoom {
+  position: relative;
+
+  overflow: hidden;
+}
+.zoom img {
+  background: #1abc9c;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.zoom:hover img {
+  /*background: #1abc9c;*/
+  opacity: .9;
+  -moz-transform: scale(1.8);
+  -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+}
 
 /* cell number */
 /*.gallery-cell:before {*/
