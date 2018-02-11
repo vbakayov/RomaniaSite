@@ -346,7 +346,7 @@
         <div class="js__parallax-window" style="background: url(Resources/img/dunavska_cherveno/old/4.jpg) 50% 25px no-repeat fixed; padding-bottom: 70px;">
             <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
-                    <h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Products</h2>
+                    <!--<h2 class="g-font-size-40&#45;&#45;xs g-font-size-50&#45;&#45;sm g-font-size-60&#45;&#45;md g-color&#45;&#45;white">Products</h2>-->
                 </div>
 
 
@@ -420,24 +420,23 @@
 
 
 
-
+        <!-- Begin Container Filter + Gallary -->
         <div class="g-bg-color--primary">
-
-            <!--<div class="s-portfolio">-->
-                <!--<div id="js__filters-portfolio-gallery" class="s-portfolio__filter-v1 cbp-l-filters-text cbp-l-filters-center">-->
-
             <div class="row" style="margin-left: 0px; " >
+                <!--Begin Filter Container-->
                 <div class="col-lg-3 " style=" padding-top: 30px" >
                     <div class="nav-side-menu s-portfolio">
                         <div class="brand">  <img class="s-header__logo-img" src="Resources/img/logo1.png" alt=""></div>
                         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
 
                         <div id="js__filters-portfolio-gallery" class= " s-portfolio__filter-v1  cbp-l-filters-center menu-list">
-
+                            <!--Begin Filters-->
                             <ul id="filters" class="menu-content collapse out">
+
                                 <li  data-toggle="collapse" data-target="#products" class="collapsed active">
                                     <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i> Битови покривки <span class="arrow"></span></a>
                                 </li>
+                                <!--Begin Submenue-->
                                 <ul class="sub-menu collapse" id="products">
                                     <li class="active"><a href="#/">CSS3 Animation</a></li>
                                     <li  data-filter=".pokrivki_transilvanska"  class="s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Трансилванска Червена </a></li>
@@ -450,7 +449,7 @@
                                     <li  data-filter=".pokrivki_karirana"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Червена карирана</a></li>
                                     <li  data-filter=".pokrivki_all"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Всички покривки</a></li>
                                 </ul>
-
+                                <!--End Submenue-->
                                 <li id="vulneniDebeliTsvetni" onclick="click()" data-filter=".graphic" class=" s-portfolio__filter-v1-item cbp-filter-item ">
                                     <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели цветни</a>
                                 </li>
@@ -477,8 +476,6 @@
                                         <div> Одеяла от агнешка вълна</div></a>
                                 </li>
 
-
-
                                 <li data-toggle="collapse" data-target="#service" class="collapsed">
                                     <a href="#/"><i class="fa fa-gift fa-lg"></i> Други <span class="arrow"></span></a>
                                 </li>
@@ -492,13 +489,16 @@
                                 <li id="all" data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item">
                                     <a href="#/"><i class="fa fa-globe fa-lg icon_margin"></i>Show All</a>
                                 </li>
+
                             </ul>
+                            <!--End Filters-->
                         </div>
                     </div>
                 </div>
-
+                <!--End Filter Container-->
+                <!-- Begin Gallary -->
                 <div class="col-lg-9">
-        <!-- Portfolio Gallery -->
+
                     <div class="" style="padding-right: 30px" >
 
                         <div class="g-container--sm g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
@@ -1961,48 +1961,44 @@
                         </div>
                     </div>
                 </div>
-            <!-- End Portfolio Gallery -->
+            <!-- End  Gallery -->
+            </div>
         </div>
-        <!-- End Portfolio -->
+        <!-- End Gallery Container -->
 
-            <!-- Begin Modals Product more Info -->
-            <!-- Model -->
-            <div id="modalVEstestveni" class="modal fade" role="dialog">
-                <div class="modal-dialog">
-
-                    <!-- Modal content-->
-                    <div class="modal-content modal-info">
-                        <div class="modal-header">
+        <!-- Models -->
+        <!-- Begin Models Product more Info -->
+        <div id="modalVEstestveni" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Model content-->
+                <div class="modal-content modal-info">
+                    <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
-                        </div>
-                        <div class="modal-body modal-spa">
-                            <div class="col-md-5 span-2">
-                                <div class="item">
-                                    <img src="Resources/img/rodopski_estestveni/1.jpg" class="img-responsive" alt="">
-                                </div>
+                    </div>
+                    <div class="modal-body modal-spa">
+                        <div class="col-md-5 span-2">
+                            <div class="item">
+                                <img src="Resources/img/rodopski_estestveni/1.jpg" class="img-responsive" alt="">
                             </div>
-                            <div class="col-md-7 span-1 ">
-                                <h3>Estestveni Vulnenie</h3>
-                                <p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
-
-                                <div class="clearfix"></div>
-
-                                <h4 class="quick">Razmeri:</h4>
-                                <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
+                        </div>
+                        <div class="col-md-7 span-1 ">
+                            <h3>Estestveni Vulnenie</h3>
+                            <p class="in-para"> There are many variations of passages of Lorem Ipsum.</p>
+                            <div class="clearfix"></div>
+                            <h4 class="quick">Razmeri:</h4>
+                            <p class="quick_desc"> Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; es</p>
                                 <!--<div class="add-to">-->
                                     <!--<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="images/of1.png">Add to Cart</button>-->
                                 <!--</div>-->
-                            </div>
-                            <div class="clearfix"> </div>
                         </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+                        <div class="clearfix"> </div>
                     </div>
-
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
-
             </div>
+        </div>
 
         <!--========== FOOTER ==========-->
         <footer class="g-bg-color--dark footer_margin">
