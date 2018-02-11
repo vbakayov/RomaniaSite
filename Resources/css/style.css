@@ -7,6 +7,8 @@ html {
 
 .icon_margin{
   margin-right: 10px;
+  float: left;
+  padding-top: 10px
 }
 
 .nav-side-menu {
@@ -426,7 +428,7 @@ body { font-family: sans-serif; }
 }
 
 
-footer{
+.footer_margin{
   margin-top: 40px;
 }
 

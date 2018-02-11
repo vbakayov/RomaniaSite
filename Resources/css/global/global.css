@@ -1058,7 +1058,7 @@
 ------------------------------------*/
 .g-ver-center--xs {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 0;
   right: 0;
   -webkit-transform: translate3d(0, -50%, 0);
@@ -1069,7 +1069,7 @@
 @media (min-width: 34em) {
   .g-ver-center--sm {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 0;
     right: 0;
     -webkit-transform: translate3d(0, -50%, 0);
@@ -1081,7 +1081,7 @@
 @media (min-width: 48em) {
   .g-ver-center--md {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 0;
     right: 0;
     -webkit-transform: translate3d(0, -50%, 0);
@@ -1093,7 +1093,7 @@
 @media (min-width: 62em) {
   .g-ver-center--lg {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 0;
     right: 0;
     -webkit-transform: translate3d(0, -50%, 0);
@@ -7438,6 +7438,11 @@
 /* Background Colors */
 .g-bg-color--primary {
   background-color: #fdcb00 !important;
+}
+
+.g-bg-color--white-blue {
+  background-color: #13b1cd !important;
+
 }
 
 .g-bg-color--blueviolet {
