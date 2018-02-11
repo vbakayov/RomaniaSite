@@ -11,6 +11,18 @@ html {
   padding-top: 10px
 }
 
+.menu_text_style{
+  float: left ;
+  margin-top: 13%;
+  font-weight: bold;
+  color: white;
+}
+
+.s-header__shrink .menu_text_style{
+  color: #13b1cd;
+
+}
+
 .nav-side-menu {
   overflow: auto;
   font-family: verdana;
@@ -1653,7 +1665,7 @@ fieldset[disabled] .s-btn {
 .s-header__trigger {
   position: relative;
   z-index: 9999;
-  width: 3.125rem;
+  width: 5.125rem;
   height: 3.125rem;
   float: right;
   overflow: hidden;
@@ -1666,7 +1678,7 @@ fieldset[disabled] .s-btn {
 .s-header__trigger-icon {
   position: absolute;
   top: 25%;
-  left: 50%;
+  left: 90%;
   right: auto;
   bottom: auto;
   width: 1.375rem;
