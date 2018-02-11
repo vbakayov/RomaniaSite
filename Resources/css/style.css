@@ -23,6 +23,25 @@ html {
 
 }
 
+.action_button {
+  padding: 12px 32px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none;
+  position: relative;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.action_button:hover {
+  background-color: rgba(255,255,255,.2) !important;
+  border-color: #fff;
+  color: #cfd2ed;
+
+}
+
+
 .nav-side-menu {
   overflow: auto;
   font-family: verdana;
