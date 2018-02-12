@@ -60,11 +60,21 @@ html {
   background-color: #2e353d;
   /*position: relative;*/
   top: 100px;
-  width: 300px;
+  min-width: 300px;
+  width: 400px;
+  margin-right: 20px;
   /*height: 100%;*/
   color: #e1ffff;
 }
-.nav-side-menu .brand {
+@media (max-width: 1600px) {
+  .nav-side-menu {
+    width: 300px;
+  }
+}
+
+
+
+  .nav-side-menu .brand {
   background-color: #23282e;
   line-height: 50px;
   display: block;
