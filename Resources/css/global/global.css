@@ -1058,7 +1058,7 @@
 ------------------------------------*/
 .g-ver-center--xs {
   position: absolute;
-  top: 30%;
+  top: 50%;
   left: 0;
   right: 0;
   -webkit-transform: translate3d(0, -50%, 0);
@@ -1069,7 +1069,7 @@
 @media (min-width: 34em) {
   .g-ver-center--sm {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 0;
     right: 0;
     -webkit-transform: translate3d(0, -50%, 0);
@@ -1081,7 +1081,7 @@
 @media (min-width: 48em) {
   .g-ver-center--md {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 0;
     right: 0;
     -webkit-transform: translate3d(0, -50%, 0);
