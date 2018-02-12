@@ -202,7 +202,20 @@ html {
   .nav-side-menu .menu-list .menu-content {
     display: block;
   }
+
 }
+
+.myPadding{
+  padding-bottom: 250px;
+}
+@media (max-width: 1200px) {
+  .myPadding{
+    padding-bottom: 0px;
+  }
+  }
+
+
+
 .fill{
   max-width: 100%;
   max-height: 100%;
