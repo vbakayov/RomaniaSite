@@ -334,7 +334,7 @@
 
         <!-- End Portfolio Filter -->
 
-        <div class="js__parallax-window" style="background: url(Resources/img/dunavska_cherveno/old/4.jpg) 50% 25px no-repeat fixed; padding-bottom: 70px;">
+        <div id="paralax" class="js__parallax-window" style="background: url(Resources/img/dunavska_cherveno/old/4.jpg) 50% 25px no-repeat fixed; padding-bottom: 70px;">
             <div class="container g-text-center--xs g-padding-y-80--xs g-padding-y-125--sm">
                 <div class="g-margin-b-80--xs">
                     <!--<h2 class="g-font-size-40--xs g-font-size-50--sm g-font-size-60--md g-color--white">Products</h2>-->
@@ -480,8 +480,8 @@
         <div class="g-bg-color--primary">
             <div class="row" style="margin-left: 0px; " >
                 <!--Begin Filter Container-->
-                <div class="col-lg-3 " style=" padding-top: 30px" >
-                    <div class="nav-side-menu s-portfolio">
+                <div  class="col-lg-3 " style=" padding-top: 30px ;padding-right: 30px ;  padding-left: 20px;" >  <!--  padding-left: 30px--!>
+                    <div id="myHeader" class="nav-side-menu s-portfolio">
                         <div class="brand">  <img class="s-header__logo-img" src="Resources/img/logo1.png" alt=""></div>
                         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
                         <div class="menu-list">
@@ -2164,44 +2164,23 @@
 
         </script>
 
-        <!--<script>-->
-                <!--$(document).ready(function() {-->
+        <script>
+            window.onscroll = function() {myFunction()};
+            console.log("here");
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop -2000;
+            console.log(sticky);
+            function myFunction() {
 
-                    <!--//<![CDATA[-->
-                    <!--jQuery(function($) {-->
-
-                        <!--var owl = $('#myslider');-->
-                        <!--owl.owlCarousel({-->
-
-                            <!--lazyLoad: true,-->
-
-                            <!--itemsCustom: [ [0, 1], [320, 2], [480, 2], [768, 3], [960, 4], [1280, 5] ],-->
-                            <!--responsiveRefreshRate: 50,-->
-
-                            <!--slideSpeed: 200,-->
-
-                            <!--paginationSpeed: 500,-->
-
-
-                            <!--autoPlay: 6000,-->
-
-                            <!--stopOnHover: true,-->
-
-                            <!--rewindNav: true,-->
-                            <!--rewindSpeed: 600,-->
-
-                            <!--pagination: true,-->
-                            <!--paginationSpeed: 600,-->
-
-                            <!--navigation: true,-->
-                            <!--navigationText: false-->
-
-                        <!--}); //end: owl-->
-
-                    <!--});-->
-
-                <!--});-->
-        <!--</script>-->
+                if (window.pageYOffset >= 850) {
+                    header.classList.add("sticky");
+                    console.log("here1");
+                } else {
+                    header.classList.remove("sticky");
+                    console.log("here2");
+                }
+            }
+        </script>
 
 
 
