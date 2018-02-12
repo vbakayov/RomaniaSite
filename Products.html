@@ -142,10 +142,6 @@
                 <h1 class="g-font-size-35--xs g-font-size-45--sm g-font-size-55--md g-color--gold ">Featured Products</h1>
 
 
-
-
-
-
                 <!-- Flickity HTML init -->
             <div class="row">
                 <div class="gallery  js-flickity col-md-8 center-block card-4 ih-item square" style="float: none; margin-bottom: 60px"
@@ -415,6 +411,71 @@
 
 
 
+        <!--<div class="nav-side-menu">-->
+            <!--<div class="brand">Brand Logo</div>-->
+            <!--<i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>-->
+
+            <!--<div class="menu-list">-->
+
+                <!--<ul  class="menu-content collapse out">    &lt;!&ndash; id="menu-content" &ndash;&gt;-->
+                    <!--<li>-->
+                        <!--<a href="#">-->
+                            <!--<i class="fa fa-dashboard fa-lg"></i> Dashboard-->
+                        <!--</a>-->
+                    <!--</li>-->
+
+                    <!--<li  data-toggle="collapse" data-target="#products" class="collapsed active">-->
+                        <!--<a href="#"><i class="fa fa-gift fa-lg"></i> UI Elements <span class="arrow"></span></a>-->
+                    <!--</li>-->
+                    <!--<ul class="sub-menu collapse" id="products">-->
+                        <!--<li class="active"><a href="#">CSS3 Animation</a></li>-->
+                        <!--<li><a href="#">General</a></li>-->
+                        <!--<li><a href="#">Buttons</a></li>-->
+                        <!--<li><a href="#">Tabs & Accordions</a></li>-->
+                        <!--<li><a href="#">Typography</a></li>-->
+                        <!--<li><a href="#">FontAwesome</a></li>-->
+                        <!--<li><a href="#">Slider</a></li>-->
+                        <!--<li><a href="#">Panels</a></li>-->
+                        <!--<li><a href="#">Widgets</a></li>-->
+                        <!--<li><a href="#">Bootstrap Model</a></li>-->
+                    <!--</ul>-->
+
+
+                    <!--<li data-toggle="collapse" data-target="#service" class="collapsed">-->
+                        <!--<a href="#"><i class="fa fa-globe fa-lg"></i> Services <span class="arrow"></span></a>-->
+                    <!--</li>-->
+                    <!--<ul class="sub-menu collapse" ">-->
+                        <!--<li>New Service 1</li>-->
+                        <!--<li>New Service 2</li>-->
+                        <!--<li>New Service 3</li>-->
+                    <!--</ul>-->
+
+
+                    <!--<li data-toggle="collapse" data-target="#new" class="collapsed">-->
+                        <!--<a href="#"><i class="fa fa-car fa-lg"></i> New <span class="arrow"></span></a>-->
+                    <!--</li>-->
+                    <!--<ul class="sub-menu collapse" id="new">-->
+                        <!--<li>New New 1</li>-->
+                        <!--<li>New New 2</li>-->
+                        <!--<li>New New 3</li>-->
+                    <!--</ul>-->
+
+
+                    <!--<li>-->
+                        <!--<a href="#">-->
+                            <!--<i class="fa fa-user fa-lg"></i> Profile-->
+                        <!--</a>-->
+                    <!--</li>-->
+
+                    <!--<li>-->
+                        <!--<a href="#">-->
+                            <!--<i class="fa fa-users fa-lg"></i> Users-->
+                        <!--</a>-->
+                    <!--</li>-->
+                <!--</ul>-->
+            <!--</div>-->
+        <!--</div>-->
+
         <!-- Begin Container Filter + Gallary -->
         <div class="g-bg-color--primary">
             <div class="row" style="margin-left: 0px; " >
@@ -423,70 +484,73 @@
                     <div class="nav-side-menu s-portfolio">
                         <div class="brand">  <img class="s-header__logo-img" src="Resources/img/logo1.png" alt=""></div>
                         <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content"></i>
+                        <div class="menu-list">
 
-                        <div id="js__filters-portfolio-gallery" class= " s-portfolio__filter-v1  cbp-l-filters-center menu-list">
-                            <!--Begin Filters-->
-                            <ul id="filters" class="menu-content collapse out">
+                            <div id="js__filters-portfolio-gallery" class= " s-portfolio__filter-v1  cbp-l-filters-center menu-list">
+                                <!--Begin Filters-->
+                                <ul id="menu-content" class="menu-content collapse out">   <!-- id="filters" -->  <!-- id="menu-content" -->
+                                    <div id="filters">
+                                        <li  data-toggle="collapse" data-target="#products" class="collapsed active">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i> Битови покривки <span class="arrow"></span></a>
+                                        </li>
+                                        <!--Begin Submenue-->
+                                        <ul class="sub-menu collapse" id="products">
+                                            <li class="active"><a href="#/">CSS3 Animation</a></li>
+                                            <li  data-filter=".pokrivki_transilvanska"  class="s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Трансилванска Червена </a></li>
+                                            <li data-filter=".pokrivki_chervena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска червена</a></li>
+                                            <li data-filter=".pokrivki_bqla"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска бяла</a></li>
+                                            <li  data-filter=".pokrivki_zelena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска зелена</a></li>
+                                            <li data-filter=".pokrivki_oranjeva"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска оранжева</a></li>
+                                            <li  data-filter=".pokrivki_ekru"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска екрю</a></li>
+                                            <li  data-filter=".pokrivki_sinia"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска синя</a></li>
+                                            <li  data-filter=".pokrivki_karirana"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Червена карирана</a></li>
+                                            <li  data-filter=".pokrivki_all"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Всички покривки</a></li>
+                                        </ul>
+                                        <!--End Submenue-->
+                                        <li id="vulneniDebeliTsvetni" onclick="click()" data-filter=".graphic" class=" s-portfolio__filter-v1-item cbp-filter-item ">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели цветни</a>
+                                        </li>
 
-                                <li  data-toggle="collapse" data-target="#products" class="collapsed active">
-                                    <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i> Битови покривки <span class="arrow"></span></a>
-                                </li>
-                                <!--Begin Submenue-->
-                                <ul class="sub-menu collapse" id="products">
-                                    <li class="active"><a href="#/">CSS3 Animation</a></li>
-                                    <li  data-filter=".pokrivki_transilvanska"  class="s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Трансилванска Червена </a></li>
-                                    <li data-filter=".pokrivki_chervena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска червена</a></li>
-                                    <li data-filter=".pokrivki_bqla"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска бяла</a></li>
-                                    <li  data-filter=".pokrivki_zelena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска зелена</a></li>
-                                    <li data-filter=".pokrivki_oranjeva"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска оранжева</a></li>
-                                    <li  data-filter=".pokrivki_ekru"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска екрю</a></li>
-                                    <li  data-filter=".pokrivki_sinia"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска синя</a></li>
-                                    <li  data-filter=".pokrivki_karirana"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Червена карирана</a></li>
-                                    <li  data-filter=".pokrivki_all"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Всички покривки</a></li>
+                                        <li data-filter=".vulneniEstestveni" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели естествени</a>
+                                        </li>
+
+                                        <li data-filter=".pamuk_kara" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>памучни одеала кара</a>
+                                        </li>
+
+                                        <li data-filter=".jakard" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Памучно жакардови одеяла</a>
+                                        </li>
+
+                                        <li data-filter=".olekoteni" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Олекотени одеяла</a>
+                                        </li>
+
+
+                                        <li data-filter=".agne" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>
+                                                <div> Одеяла от агнешка вълна</div></a>
+                                        </li>
+
+                                        <li data-toggle="collapse" data-target="#service" class="collapsed">
+                                            <a href="#/"><i class="fa fa-gift fa-lg"></i> Други <span class="arrow"></span></a>
+                                        </li>
+
+                                        <ul class="sub-menu collapse" id="service">
+                                            <li  data-filter=".vuzglavnici"  class="s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Възглавници </a></li>
+                                            <li data-filter=".torbichki"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Торбички</a></li>
+                                        </ul>
+
+
+                                        <li id="all" data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                            <a href="#/"><i class="fa fa-globe fa-lg icon_margin"></i>Show All</a>
+                                        </li>
+                                    </div>
+
                                 </ul>
-                                <!--End Submenue-->
-                                <li id="vulneniDebeliTsvetni" onclick="click()" data-filter=".graphic" class=" s-portfolio__filter-v1-item cbp-filter-item ">
-                                    <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели цветни</a>
-                                </li>
-
-                                <li data-filter=".vulneniEstestveni" class="s-portfolio__filter-v1-item cbp-filter-item">
-                                    <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели естествени</a>
-                                </li>
-
-                                <li data-filter=".pamuk_kara" class="s-portfolio__filter-v1-item cbp-filter-item">
-                                    <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>памучни одеала кара</a>
-                                </li>
-
-                                <li data-filter=".jakard" class="s-portfolio__filter-v1-item cbp-filter-item">
-                                    <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Памучно жакардови одеяла</a>
-                                </li>
-
-                                <li data-filter=".olekoteni" class="s-portfolio__filter-v1-item cbp-filter-item">
-                                    <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Олекотени одеяла</a>
-                                </li>
-
-
-                                <li data-filter=".agne" class="s-portfolio__filter-v1-item cbp-filter-item">
-                                    <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>
-                                        <div> Одеяла от агнешка вълна</div></a>
-                                </li>
-
-                                <li data-toggle="collapse" data-target="#service" class="collapsed">
-                                    <a href="#/"><i class="fa fa-gift fa-lg"></i> Други <span class="arrow"></span></a>
-                                </li>
-
-                                <ul class="sub-menu collapse" id="service">
-                                    <li  data-filter=".vuzglavnici"  class="s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Възглавници </a></li>
-                                    <li data-filter=".torbichki"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Торбички</a></li>
-                                </ul>
-
-
-                                <li id="all" data-filter="*" class="s-portfolio__filter-v1-item cbp-filter-item">
-                                    <a href="#/"><i class="fa fa-globe fa-lg icon_margin"></i>Show All</a>
-                                </li>
-
-                            </ul>
-                            <!--End Filters-->
+                                <!--End Filters-->
+                            </div>
                         </div>
                     </div>
                 </div>
