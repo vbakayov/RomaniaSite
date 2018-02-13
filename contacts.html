@@ -158,8 +158,9 @@
                     </div>
                 </form>
             </div>
-            <img class="s-mockup-v2" src="Resources/img/vuzlavnici/white_pillow.gif" alt="Pillow Image">
-            <img class="s-mockup-v3" src="Resources/img/vuzlavnici/red_pillow.gif" alt="Pillow Image">
+
+            <img id="pillow_1" class="s-mockup-v2" src="Resources/img/vuzlavnici/white_pillow.gif" alt="Pillow Image">
+            <img id="pillow_2" class="s-mockup-v3" src="Resources/img/vuzlavnici/red_pillow.gif" alt="Pillow Image">
         </div>
         <!-- End Feedback Form -->
         <!--========== END PAGE CONTENT ==========-->
@@ -195,10 +196,28 @@
         <script type="text/javascript" src="Resources/vendor/jquery.back-to-top.min.js"></script>
         <script type="text/javascript" src="Resources/vendor/scrollbar/jquery.scrollbar.min.js"></script>
 
+        <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+        <script type="text/javascript">
+            var jQuery_1_1_3 = $.noConflict(true);
+        </script>
+
+        <script type="text/javascript" src="Resources/vendor/parollar/jquery.paroller.js"></script>
+        <!--<script type="text/javascript" src="Resources/vendor/parollar/"></script>-->
+
         <!-- General Components and Settings -->
         <script type="text/javascript" src="Resources/js/global.min.js"></script>
         <script type="text/javascript" src="Resources/js/components/header-sticky.min.js"></script>
         <script type="text/javascript" src="Resources/js/components/scrollbar.min.js"></script>
+
+        <script>
+
+
+            // initialize paroller.js
+            $('.my-paroller').paroller();
+            // initialize paroller.js and set attributes
+            $("#pillow_1").paroller({ factor: '0.9', type: 'foreground', direction: 'vertical' });
+            $("#pillow_2").paroller({ factor: '0.9', type: 'foreground', direction: 'vertical' });
+        </script>
         <!--========== END JAVASCRIPTS ==========-->
 
     </body>

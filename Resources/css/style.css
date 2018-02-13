@@ -1504,32 +1504,32 @@ fieldset[disabled] .s-btn {
 .s-mockup-v2 {
   position: absolute;
   left: 6.25rem;
-  bottom: 2.25rem;
+  bottom: 22rem;
   width: 25rem;
   height: auto;
 }
 
-@media (max-width: 45em) {
+@media (max-width: 75em) {
   .s-mockup-v2 {
     display: none;
   }
 }
 
-@media (min-width: 45em) {
-  .s-mockup-v2 {
-    position: absolute;
-    left: 0.625rem;
-    bottom: 0.625rem;
-    width: 18.75rem;
-    height: auto;
-  }
-}
+/*@media (min-width: 45em) {*/
+  /*.s-mockup-v2 {*/
+    /*position: absolute;*/
+    /*left: 0.625rem;*/
+    /*bottom: 20rem;*/
+    /*width: 18.75rem;*/
+    /*height: auto;*/
+  /*}*/
+/*}*/
 
 @media (min-width:52em) {
   .s-mockup-v2 {
     position: absolute;
     left: 5rem;
-    bottom: 2rem;
+    bottom: 20rem;
     width: 18.75rem;
     height: auto;
   }
@@ -1540,7 +1540,7 @@ fieldset[disabled] .s-btn {
 .s-mockup-v3 {
   position: absolute;
   right: 6.25rem;
-  bottom: 2.25rem;
+  bottom: 22rem;
   width: 25rem;
   height: auto;
 }
@@ -1555,7 +1555,7 @@ fieldset[disabled] .s-btn {
   .s-mockup-v3 {
     position: absolute;
     right: 0.625rem;
-    bottom: 0.625rem;
+    bottom: 20rem;
     width: 14.75rem;
     height: auto;
   }
@@ -1565,7 +1565,7 @@ fieldset[disabled] .s-btn {
   .s-mockup-v3 {
     position: absolute;
     right: 5rem;
-    bottom: 2rem;
+    bottom: 20rem;
     width: 14.75rem;
     height: auto;
   }
