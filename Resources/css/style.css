@@ -1545,21 +1545,21 @@ fieldset[disabled] .s-btn {
   height: auto;
 }
 
-@media (max-width: 45em) {
+@media (max-width: 75em) {
   .s-mockup-v3 {
     display: none;
   }
 }
 
-@media (min-width: 45em) {
-  .s-mockup-v3 {
-    position: absolute;
-    right: 0.625rem;
-    bottom: 20rem;
-    width: 14.75rem;
-    height: auto;
-  }
-}
+/*@media (min-width: 45em) {*/
+  /*.s-mockup-v3 {*/
+    /*position: absolute;*/
+    /*right: 0.625rem;*/
+    /*bottom: 20rem;*/
+    /*width: 14.75rem;*/
+    /*height: auto;*/
+  /*}*/
+/*}*/
 
 @media (min-width:52em) {
   .s-mockup-v3 {
