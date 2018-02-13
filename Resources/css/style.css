@@ -102,7 +102,7 @@ html {
 
 
 .nav-side-menu {
-  overflow: auto;
+  /*overflow: auto;*/
   font-family: verdana;
   font-size: 12px;
   font-weight: 200;
@@ -138,7 +138,7 @@ html {
   list-style: none;
   padding: 0px;
   margin: 0px;
-  line-height: 35px;
+  line-height: 30px;
   cursor: pointer;
   /*
     .collapsed{
@@ -181,7 +181,7 @@ html {
 .nav-side-menu li .sub-menu li {
   background-color: #181c20;
   border: none;
-  line-height: 28px;
+  line-height: 20px;
   border-bottom: 1px solid #23282e;
   margin-left: 0px;
 }
