@@ -1500,22 +1500,22 @@ fieldset[disabled] .s-btn {
   }
 }
 
-/* Mockup v2 */
+/* Pillow  v2 */
 .s-mockup-v2 {
   position: absolute;
   left: 6.25rem;
-  bottom: 6.25rem;
+  bottom: 2.25rem;
   width: 25rem;
   height: auto;
 }
 
-@media (max-width: 33.9em) {
+@media (max-width: 45em) {
   .s-mockup-v2 {
     display: none;
   }
 }
 
-@media (min-width: 34em) {
+@media (min-width: 45em) {
   .s-mockup-v2 {
     position: absolute;
     left: 0.625rem;
@@ -1525,15 +1525,53 @@ fieldset[disabled] .s-btn {
   }
 }
 
-@media (min-width: 48em) {
+@media (min-width:52em) {
   .s-mockup-v2 {
     position: absolute;
     left: 5rem;
-    bottom: 5rem;
+    bottom: 2rem;
     width: 18.75rem;
     height: auto;
   }
 }
+
+
+/* Pillow  v3 */
+.s-mockup-v3 {
+  position: absolute;
+  right: 6.25rem;
+  bottom: 2.25rem;
+  width: 25rem;
+  height: auto;
+}
+
+@media (max-width: 45em) {
+  .s-mockup-v3 {
+    display: none;
+  }
+}
+
+@media (min-width: 45em) {
+  .s-mockup-v3 {
+    position: absolute;
+    right: 0.625rem;
+    bottom: 0.625rem;
+    width: 14.75rem;
+    height: auto;
+  }
+}
+
+@media (min-width:52em) {
+  .s-mockup-v3 {
+    position: absolute;
+    right: 5rem;
+    bottom: 2rem;
+    width: 14.75rem;
+    height: auto;
+  }
+}
+
+
 
 /*----------------------------------
   Plan
