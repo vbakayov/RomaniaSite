@@ -1837,7 +1837,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header-bg-overlay.-is-open {
-  background: rgba(34, 35, 36, 0.99);
+  background: rgba(1, 6, 8, 0.92);
   visibility: visible;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

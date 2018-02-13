@@ -95,7 +95,20 @@
 
 
 .cool-bg {
-  background-color: #FFFFCC;
+  /*background-color: #FFFFCC;*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+  background: #fffff4; /* Old browsers */
+  background: -moz-linear-gradient(top, #fffff4 0%, #ffffcc 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fffff4 0%,#ffffcc 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fffff4 0%,#ffffcc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffff4', endColorstr='#ffffcc',GradientType=0 ); /* IE6-9 */
+}
+.cool-bg-2{
+  background: #fffff4; /* Old browsers */
+  background: -moz-linear-gradient(top, #fffff4 0%, #f8f8ff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #fffff4 0%,#f8f8ff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #fffff4 0%,#f8f8ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffff4', endColorstr='#f8f8ff',GradientType=0 ); /* IE6-9 */
 }
 .dropdown-menu {
   min-width: 200px;
@@ -7437,7 +7450,12 @@
 
 /* Background Colors */
 .g-bg-color--primary {
-  background-color: #fdcb00 !important;
+  /*background-color: #fdcb00 !important;*/
+  background: #ffd65e; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffd65e 0%, #ffb600 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffd65e 0%,#ffb600 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffd65e 0%,#ffb600 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#ffb600',GradientType=0 ); /* IE6-9 */
 }
 
 .g-bg-color--white-blue {
