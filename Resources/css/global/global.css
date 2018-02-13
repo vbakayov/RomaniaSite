@@ -103,6 +103,20 @@
   background: linear-gradient(to bottom, #fffff4 0%,#ffffcc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fffff4', endColorstr='#ffffcc',GradientType=0 ); /* IE6-9 */
 }
+
+.cool-bg-3 {
+  /*background-color: #FFFFCC;*/
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffa84c+0,ff7b0d+100;Orange+3D */
+  background: #ffffcc; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffffcc 0%, #fffff4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffffcc 0%,#fffff4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffffcc 0%,#fffff4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffcc', endColorstr='#fffff4',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+
 .cool-bg-2{
   background: #fffff4; /* Old browsers */
   background: -moz-linear-gradient(top, #fffff4 0%, #f8f8ff 100%); /* FF3.6-15 */
@@ -7456,6 +7470,15 @@
   background: -webkit-linear-gradient(top, #ffd65e 0%,#ffb600 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #ffd65e 0%,#ffb600 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#ffb600',GradientType=0 ); /* IE6-9 */
+}
+
+.g-bg-color--primary-2 {
+  /*background-color: #fdcb00 !important;*/
+  background: #ffb600; /* Old browsers */
+  background: -moz-linear-gradient(top, #ffb600 0%, #ffd65e 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #ffb600 0%,#ffd65e 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #ffb600 0%,#ffd65e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb600', endColorstr='#ffd65e',GradientType=0 ); /* IE6-9 */
 }
 
 .g-bg-color--white-blue {
