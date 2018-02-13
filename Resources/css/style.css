@@ -6,6 +6,34 @@ html {
 }
 
 
+.stretch{
+  /* Will stretch to specified width/height */
+  background-size: 200px 150px;
+}
+.stretch-content{
+  /* Will stretch to width/height of element */
+  background-size: 100% 100%;
+}
+
+.resize-width{
+  /* width: 150px, height: auto to retain aspect ratio */
+  background-size: 150px Auto;
+}
+.resize-height{
+  /* height: 150px, width: auto to retain aspect ratio */
+  background-size: Auto 150px;
+}
+.resize-fill-and-clip{
+  /* Resize to fill and retain aspect ratio.
+     Will cause clipping if aspect ratio of box is different from image. */
+  background-size: cover;
+}
+.resize-best-fit{
+  /* Resize to best fit and retain aspect ratio.
+     Will cause gap if aspect ratio of box is different from image. */
+  background-size: contain;
+}
+
 
 .icon_margin{
   margin-right: 10px;
@@ -21,19 +49,23 @@ html {
 }
 
 .parallax{
+  background-size: 100% 100%;
   background: url(../../Resources/img/dunavska_cherveno/4_new.jpg) 50% 0 no-repeat fixed;
+  /*width: 1219 ;*/
+  /*height: 814;*/
   padding-bottom: 90px;
 }@media screen and (max-device-width: 560px){
   .parallax{
+    background-size: 100% 100%;
     background: url(../../Resources/img/dunavska_cherveno/4_new_small.jpg) 50% 0 no-repeat fixed;
     padding-bottom: 90px;}
 
 
 }
-@media screen and (max-device-width: 360px){
-  .parallax{
-    background: url(../../Resources/img/dunavska_cherveno/4_new_small_smaller.jpg) 50% 0 no-repeat fixed;
-    padding-bottom: 90px;}
+/*@media screen and (max-device-width: 360px){*/
+  /*.parallax{*/
+    /*background: url(../../Resources/img/dunavska_cherveno/4_new_small_smaller.jpg) 50% 0 no-repeat fixed;*/
+    /*padding-bottom: 90px;}*/
 
 
 }
