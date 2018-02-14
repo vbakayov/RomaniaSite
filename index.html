@@ -372,7 +372,7 @@
         <script type="text/javascript" src="Resources/vendor/waypoint.min.js"></script>
         <script type="text/javascript" src="Resources/vendor/counterup.min.js"></script>
         <script type="text/javascript" src="Resources/vendor/cubeportfolio/js/jquery.cubeportfolio.min.js"></script>
-        <script type="text/javascript" src="Resources/vendor/jquery.parallax.min.js"></script>
+        <!--<script type="text/javascript" src="Resources/vendor/jquery.parallax.min.js"></script>-->
         <script type="text/javascript" src="Resources/vendor/jquery.wow.min.js"></script>
 
         <!-- General Components and Settings -->
@@ -383,7 +383,7 @@
         <script type="text/javascript" src="Resources/js/components/swiper.min.js"></script>
         <script type="text/javascript" src="Resources/js/components/counter.min.js"></script>
         <script type="text/javascript" src="Resources/js/components/portfolio-3-col.min.js"></script>
-        <script type="text/javascript" src="Resources/js/components/parallax.min.js"></script>
+        <!--<script type="text/javascript" src="Resources/js/components/parallax.min.js"></script>-->
         <script type="text/javascript" src="Resources/vendor/jquery.wow.min.js"></script>
         <script type="text/javascript" src="Resources/js/components/wow.min.js"></script>
         <script>
@@ -436,13 +436,13 @@
                         if ( $(this).hasClass("transilvanska")){    $(this).css("background-size", "cover");}
 
 
-                        // if (  isMobile.iOS()){
-                        //     console.log("test");
-                        //     // $(this).css("background", "url(Resources/img/dunavska_cherveno/3.jpg) 100%");
-                        //     $(this).css("background-size", "cover");
-                        //     /*background-attachment: scroll !important;*/
-                        //     $(this).css("background-attachment", "scroll !important");
-                        // }
+                        if (  isMobile.iOS()){
+                            console.log("test");
+                            // $(this).css("background", "url(Resources/img/dunavska_cherveno/3.jpg) 100%");
+                            $(this).css("background-size", "cover");
+                            /*background-attachment: scroll !important;*/
+                            $(this).css("background-attachment", "scroll ");
+                        }
                         $(this).css("background-position", "center center");
 
 
