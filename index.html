@@ -428,10 +428,10 @@
             jQuery(function($) {
                 if (isMobile.any()) {
                     document.documentElement.className = document.documentElement.className + " touch";
-
-                    $('.parallax-window').each(function(i, obj) {
-
-                        $(this).css("background-image", 'url('+$(this).data('image-src')+')');
+                    console.log("Log1");
+                    $('.js__parallax-window').each(function(i, obj) {
+                        console.log("Log2");
+                        // $(this).css("background-image", 'url('+$(this).data('background')+')');
                         $(this).css("background-color", "#FFFFFF");
                         $(this).css("background-size", "cover");
                         $(this).css("background-position", "center center");
