@@ -138,25 +138,33 @@
                         </div>
                     </div>
                 </div>
-                <form class="center-block g-width-500--sm g-width-550--md">
+
+                <!-- ../php/sendMail.php -->
+                <!--  add .. when live -->
+                <form action="../Resources/php/sendMail.php" method="POST" target="_blank" class="center-block g-width-500--sm g-width-550--md">
+                    <input name="csrfmiddlewaretoken" value="72BU7vroBG1K0fXu5xfceR2IuBawnPzl" type="hidden">
                     <div class="g-margin-b-30--xs">
-                        <input type="text" class="form-control s-form-v3__input" placeholder="* Name">
+                        <input name="vname" required="required" type="text" class="form-control s-form-v3__input" placeholder="* Name">
                     </div>
                     <div class="row g-row-col-5 g-margin-b-50--xs">
                         <div class="col-sm-6 g-margin-b-30--xs g-margin-b-0--md">
-                            <input type="email" class="form-control s-form-v3__input" placeholder="* Email">
+                            <input name="vemail" required="required"  type="email" class="form-control s-form-v3__input" placeholder="* Email">
                         </div>
                         <div class="col-sm-6">
                             <input type="text" class="form-control s-form-v3__input" placeholder="* Phone">
                         </div>
                     </div>
                     <div class="g-margin-b-80--xs">
-                        <textarea class="form-control s-form-v3__input" rows="5" placeholder="* Your message"></textarea>
+                        <textarea  name="msg" rows="10" required="required" class="form-control s-form-v3__input"  placeholder="* Your message"></textarea>
                     </div>
                     <div class="g-text-center--xs">
-                        <button type="submit" class="text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">Submit</button>
+                        <button type="submit" name="submit" id="submit"  class=" submit text-uppercase s-btn s-btn--md s-btn--white-bg g-radius--50 g-padding-x-70--xs g-margin-b-20--xs">Submit</button>
                     </div>
+                    <input name="formtype" value="contact" type="hidden">
                 </form>
+
+
+
             </div>
 
             <img id="pillow_1" class="s-mockup-v2" src="Resources/img/vuzlavnici/white_pillow.gif" alt="Pillow Image">
@@ -164,6 +172,36 @@
         </div>
         <!-- End Feedback Form -->
         <!--========== END PAGE CONTENT ==========-->
+        <!--<section style="display: block;" class="section-get-in-touch grey-bg container-toggle" id="get-in-touch">-->
+            <!--<div class="banner " style="padding-bottom: 70px; background-color: #FFFFCC;"><h1>Пишете ни <span class="large">Изпратете ни имейл</span></h1> </div>-->
+            <!--<div class="row2">-->
+                <!--&lt;!&ndash;action="php/sendMail.php"&ndash;&gt;-->
+                <!--<form action="../php/sendMail.php" method="POST" target="_blank">-->
+                    <!--<input name="csrfmiddlewaretoken" value="72BU7vroBG1K0fXu5xfceR2IuBawnPzl" type="hidden">-->
+                    <!--<fieldset>-->
+                        <!--<ul class="layout">-->
+                            <!--<li class="half">-->
+                                <!--<input name="vname" required="required" placeholder="Вашето име ?" type="text">-->
+
+                            <!--</li>-->
+                            <!--<li class="half">-->
+                                <!--<input name="vemail" required="required" placeholder="Адрес (email) ?" type="email">-->
+
+                            <!--</li>-->
+                            <!--<li class="full">-->
+
+                                <!--<textarea name="msg" rows="10" required="required" placeholder="Как може да ви бъдем от полза ?"></textarea>-->
+                            <!--</li>-->
+                        <!--</ul>-->
+                    <!--</fieldset>-->
+                    <!--<input name="formtype" value="contact" type="hidden">-->
+                    <!--<p class="success">Съобщението се изпрати успешно </p>-->
+                    <!--<button type="submit" name="submit" id="submit" class="submit"><span>Изпрати</span></button>-->
+                <!--</form>-->
+            <!--</div>-->
+            <!--<div id="justspace" class="addEmptySpace"></div>-->
+        <!--</section>-->
+
 
         <!--========== FOOTER ==========-->
         <footer class="g-bg-color--dark">
