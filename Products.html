@@ -366,12 +366,11 @@
                                 <!--Begin Filters-->
                                 <ul id="menu-content" class="menu-content collapse in">   <!-- id="filters" -->  <!-- id="menu-content" -->
                                     <div id="filters">
-                                        <li  data-toggle="collapse" data-target="#products" class="collapsed s-portfolio__filter-v1-item">
+                                        <li  data-toggle="collapse" data-target="#products" class=" filter_active collapsed s-portfolio__filter-v1-item">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i> Битови покривки <span class="arrow"></span></a>
                                         </li>
                                         <!--Begin Submenue-->
-                                        <ul class="sub-menu collapse" id="products">
-                                            <li ><a href="#/">CSS3 Animation</a></li>
+                                        <ul class="sub-menu  filter_active collapse" id="products">
                                             <li  data-filter=".pokrivki_transilvanska"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Трансилванска Червена </a></li>
                                             <li data-filter=".pokrivki_chervena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска червена</a></li>
                                             <li data-filter=".pokrivki_bqla"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска бяла</a></li>
@@ -383,15 +382,15 @@
                                             <li  data-filter=".pokrivki_all"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width active"><a href="#/">Всички покривки</a></li>
                                         </ul>
                                         <!--End Submenue-->
-                                        <li id="vulneniDebeliTsvetni" onclick="click()" data-filter=".graphic" class="s-portfolio__filter-v1-item cbp-filter-item ">
+                                        <li id="vulneniDebeliTsvetni" onclick="myFunction2()" data-filter=".graphic" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item ">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели цветни</a>
                                         </li>
 
-                                        <li data-filter=".vulneniEstestveni" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                        <li data-filter=".vulneniEstestveni" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели естествени</a>
                                         </li>
 
-                                        <li data-filter=".pamuk_kara" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                        <li data-filter=".pamuk_kara" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>памучни одеала кара</a>
                                         </li>
 
@@ -413,7 +412,7 @@
                                             <a href="#/"><i class="fa fa-gift fa-lg"></i> Други <span class="arrow"></span></a>
                                         </li>
 
-                                        <ul class="collapse s-portfolio__filter-v1-item" id="service">
+                                        <ul class="sub-menu filter_active  collapse s-portfolio__filter-v1-item" id="service">
                                             <li  data-filter=".vuzglavnici"  class="s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Възглавници </a></li>
                                             <li data-filter=".torbichki"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Торбички</a></li>
                                         </ul>
@@ -2000,14 +1999,28 @@
             }
 
             // Add active class to the current button (highlight it)
-            var products = document.getElementById("products");
-            var MenuItems = products.getElementsByClassName("s-portfolio__filter-v1-item");
-            for (var i = 0; i < MenuItems.length; i++) {
-                MenuItems[i].addEventListener("click", function() {
-                    var current = document.getElementsByClassName("active");
-                    current[0].className = current[0].className.replace(" active", "");
-                    this.className += " active";
-                });
+            var products = document.getElementsByClassName("filter_active");
+
+            var MenuItems;
+            for (var k = 0; k<products.length; k++) {
+                if(k === 1 || k === 5){
+                    MenuItems = products[k].getElementsByClassName("s-portfolio__filter-v1-item");
+                }else {
+                    MenuItems = products[k];
+                }
+                console.log(MenuItems);
+                for (var i = 0; i < MenuItems.length; i++) {
+                    MenuItems[i].addEventListener("click", function() {
+                        console.log("test");
+                        var current = document.getElementsByClassName("active");
+                        current[0].className = current[0].className.replace(" active", "");
+                        this.className += " active";
+                    });
+                }
+            }
+
+            function myFunction2() {
+                console.log("clicked");
             }
 
         </script>
