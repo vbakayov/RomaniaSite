@@ -10,7 +10,10 @@ var Global = function() {
         'pokrivki_zelena','pokrivki_oranjeva','pokrivki_ekru','pokrivki_sinia','pokrivki_karirana','pokrivki_all','pamuk_kare','pamuk_jakard',
         'olekoteni','agneshki','vuzglavnici','torbichki','all','service'];
 
-    var dunavski = ['pokrivki_bqla', 'pokrivki_zelena', 'pokrivki_oranjeva', 'pokrivki_ekru', 'pokrivki_sinia', 'pokrivki_chervena'];
+    var pokrivki_only = ['pokrivki','pokrivki_transilvanska','pokrivki_karirana','pokrivki_all', 'pokrivki_bqla', 'pokrivki_zelena', 'pokrivki_oranjeva', 'pokrivki_ekru', 'pokrivki_sinia', 'pokrivki_chervena'];
+
+    // Add active class to the current button (highlight it)
+    var products = document.getElementsByClassName("filter_active");
 
     //select the buttons
     for (var z = 0; z < ids.length; z++) {
@@ -21,7 +24,6 @@ var Global = function() {
     //add event listeners
     for (var k = 0; k < Object.keys(buttons).length; k++) {
         (function(){
-            console.log(buttons[k]);
             buttons[k].addEventListener('click', click, false);
         })();
     }
@@ -38,23 +40,12 @@ var Global = function() {
     function load_text(elementId){
         console.log("clicked");
 
-        if (elementId === "pokrivki_all")
+        if (pokrivki_only.indexOf(elementId)> -1)
         {
             text_container.innerText = "Fețele de masă cu motive populare sunt împodobite cu motive populare tradiționale românești și balcanice. Am elaborat două modele de fețe de masă tradiționale – modelul Dunărean și cel Transilvănean. Motivele decorative ale modelului dunărean sunt caracteristice pentru România de sud - Valahia (Muntenia și Oltenia). \n \n" +
-                "Modelul transilvănean este  inspirat de motivele tradiționale din Transilvania. Fețele de masă sunt bine acceptate atât de străinii care vizitează țară, încât și de românii. Clienții principali ai companiei noastre sunt comercianții orientați către comerțul cu suvenire și restaurantele tradiționale. \n"
-
+                "Modelul transilvănean este  inspirat de motivele tradiționale din Transilvania. Fețele de masă sunt bine acceptate atât de străinii care vizitează țară, încât și de românii. Clienții principali ai companiei noastre sunt comercianții orientați către comerțul cu suvenire și restaurantele tradiționale. \n";
         }
-        else if(elementId === "pokrivki_transilvanska"){
-            text_container.innerText = "Ștergarul transilvănean este inspirat de motivele tradiționale din Transilvania."
-
-        }
-        else if (dunavski.indexOf(elementId)> -1){
-            text_container.innerText = "Motivele decorative ale modelului dunărean sunt caracteristice pentru România de sud - Valahia ( Muntenia și Oltenia). ";
-        }
-        else if (elementId === "pokrivki_karirana"){
-            text_container.innerText = "Careul este un motiv care poate fi găsit în toate desenurilor populare încă din timpurile vechi.";
-        }
-        else if (elementId === "vulneniDebeli")
+        else if (elementId === "debeli_estestveni")
         {
             text_container.innerText = "vulneniDebeliTekst";
             console.log("vulneni debeli clicked clicked");

@@ -5,6 +5,10 @@ html {
   overflow-x: hidden;
 }
 
+.center_text{
+  text-align: center;
+}
+
 
 .stretch{
   /* Will stretch to specified width/height */
