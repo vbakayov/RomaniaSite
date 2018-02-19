@@ -51,12 +51,39 @@ var Global = function() {
         }
         else if (elementId === "debeli_estestveni")
         {
-            text_container.innerText = "vulneniDebeliTekst";
-            console.log("vulneni debeli clicked clicked");
-
+            text_container.innerText = "vulneniDebeliEstestveniTekst";
         }
-        else if(elementId === "all"){
-            // jQuery('#all').addClass('cbp-filter-item-active');
+        else if (elementId === "vulneniDebeliTsvetni")
+        {
+            text_container.innerText = "vulneniDebeliTsvetni";
+        }
+        else if (elementId === "pamuk_kare")
+        {
+            text_container.innerText = "pamuk_kare";
+        }
+        else if (elementId === "pamuk_jakard")
+        {
+            text_container.innerText = "pamuk_jakard";
+        }
+        else if (elementId === "olekoteni")
+        {
+            text_container.innerText = "olekoteni";
+        }
+        else if (elementId === "agneshki")
+        {
+            text_container.innerText = "agneshki";
+        }
+        else if (elementId === "vuzglavnici")
+        {
+            text_container.innerText = "vuzglavniciTekst";
+        }
+        else if (elementId === "torbichki")
+        {
+            text_container.innerText = "torbichki";
+        }
+        else if (elementId === "all")
+        {
+            text_container.innerText = "all text";
         }
 
 
