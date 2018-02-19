@@ -710,7 +710,7 @@ i {
 /* Paragraph */
 p {
   font-size: 0.9375rem;
-  font-weight: 300;
+  /*font-weight: 300;*/
   color: #656565;
   line-height: 1.6;
   margin-top: 0;

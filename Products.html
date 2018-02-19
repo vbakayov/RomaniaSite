@@ -83,9 +83,9 @@
                     <div class="container-fluid">
                         <!-- Menu List -->
                         <ul class="list-unstyled s-header__nav-menu">
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">About</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="Products.html">Products</a></li>
-                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contacts</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="index.html">Despre noi</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider -is-active" href="Products.html">Produse</a></li>
+                            <li class="s-header__nav-menu-item"><a class="s-header__nav-menu-link s-header__nav-menu-link-divider" href="contacts.html">Contacte</a></li>
                         </ul>
                         <!-- End Menu List -->
                     </div>
@@ -366,44 +366,44 @@
                                 <!--Begin Filters-->
                                 <ul id="menu-content" class="menu-content collapse in">   <!-- id="filters" -->  <!-- id="menu-content" -->
                                     <div id="filters">
-                                        <li  data-toggle="collapse" data-target="#products" class=" filter_active collapsed s-portfolio__filter-v1-item">
-                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i> Битови покривки <span class="arrow"></span></a>
+                                        <li id="pokrivki" data-toggle="collapse" data-target="#products" class=" filter_active collapsed s-portfolio__filter-v1-item">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Prosop artizanat <span class="arrow"></span></a>
                                         </li>
                                         <!--Begin Submenue-->
                                         <ul class="sub-menu  filter_active collapse" id="products">
-                                            <li  data-filter=".pokrivki_transilvanska"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Трансилванска Червена </a></li>
-                                            <li data-filter=".pokrivki_chervena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска червена</a></li>
-                                            <li data-filter=".pokrivki_bqla"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска бяла</a></li>
-                                            <li  data-filter=".pokrivki_zelena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска зелена</a></li>
-                                            <li data-filter=".pokrivki_oranjeva"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска оранжева</a></li>
-                                            <li  data-filter=".pokrivki_ekru"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска екрю</a></li>
-                                            <li  data-filter=".pokrivki_sinia"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска синя</a></li>
-                                            <li  data-filter=".pokrivki_karirana"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Червена карирана</a></li>
-                                            <li  data-filter=".pokrivki_all"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width active"><a href="#/">Всички покривки</a></li>
+                                            <li id="pokrivki_transilvanska" data-filter=".pokrivki_transilvanska"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Трансилванска Червена </a></li>
+                                            <li id="pokrivki_chervena" data-filter=".pokrivki_chervena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Față de masă dunăreană roșie</a></li>
+                                            <li id="pokrivki_bqla" data-filter=".pokrivki_bqla"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска бяла</a></li>
+                                            <li id="pokrivki_zelena" data-filter=".pokrivki_zelena"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска зелена</a></li>
+                                            <li id="pokrivki_oranjeva" data-filter=".pokrivki_oranjeva"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска оранжева</a></li>
+                                            <li id="pokrivki_ekru"  data-filter=".pokrivki_ekru"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска екрю</a></li>
+                                            <li id="pokrivki_sinia" data-filter=".pokrivki_sinia"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Дунавска синя</a></li>
+                                            <li id="pokrivki_karirana" data-filter=".pokrivki_karirana"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Червена карирана</a></li>
+                                            <li  id="pokrivki_all" data-filter=".pokrivki_all"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width active"><a href="#/">Всички покривки</a></li>
                                         </ul>
                                         <!--End Submenue-->
-                                        <li id="vulneniDebeliTsvetni" onclick="myFunction2()" data-filter=".graphic" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item ">
+                                        <li id="vulneniDebeliTsvetni" data-filter=".graphic" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item ">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели цветни</a>
                                         </li>
 
-                                        <li data-filter=".vulneniEstestveni" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item">
+                                        <li id="debeli_estestveni" data-filter=".vulneniEstestveni" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Вълнене дебели естествени</a>
                                         </li>
 
-                                        <li data-filter=".pamuk_kara" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item">
+                                        <li id="pamuk_kare" data-filter=".pamuk_kara" class=" filter_active s-portfolio__filter-v1-item cbp-filter-item">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>памучни одеала кара</a>
                                         </li>
 
-                                        <li data-filter=".jakard" class="s-portfolio__filter-v1-item cbp-filter-item">
-                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Памучно жакардови одеяла</a>
+                                        <li  id="pamuk_jakard" data-filter=".jakard" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                            <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Pături bin bumbac jaquard</a>
                                         </li>
 
-                                        <li data-filter=".olekoteni" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                        <li  id="olekoteni" data-filter=".olekoteni" class="s-portfolio__filter-v1-item cbp-filter-item">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>Олекотени одеяла</a>
                                         </li>
 
 
-                                        <li data-filter=".agne" class="s-portfolio__filter-v1-item cbp-filter-item">
+                                        <li  id ="agneshki" data-filter=".agne" class="s-portfolio__filter-v1-item cbp-filter-item">
                                             <a href="#/"><i class="fa fa-gift fa-lg icon_margin"></i>
                                                 <div> Одеяла от агнешка вълна</div></a>
                                         </li>
@@ -412,9 +412,9 @@
                                             <a href="#/"><i class="fa fa-gift fa-lg"></i> Други <span class="arrow"></span></a>
                                         </li>
 
-                                        <ul class="sub-menu filter_active  collapse s-portfolio__filter-v1-item" id="service">
-                                            <li  data-filter=".vuzglavnici"  class="s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Възглавници </a></li>
-                                            <li data-filter=".torbichki"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Торбички</a></li>
+                                        <ul  class="sub-menu filter_active  collapse s-portfolio__filter-v1-item" id="service">
+                                            <li id="vuzglavnici" data-filter=".vuzglavnici"  class="s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Възглавници </a></li>
+                                            <li  id="torbichki" data-filter=".torbichki"  class=" s-portfolio__filter-v1-item cbp-filter-item full_width"><a href="#/">Торбички</a></li>
                                         </ul>
 
 
@@ -440,7 +440,8 @@
                                 <!--<h2 class="g-font-size-32--xs g-font-size-36--sm g-letter-spacing--1 g-color--white ">Битови Покривки</h2>-->
 
                                 <div class="white-box">
-                                    <p  id ="productText" class="text-uppercase g-font-size-14--xs g-font-weight--700  g-letter-spacing--2 g-margin-b-25--xs">Текст</p>
+                                    <p  id ="productText" class="text-uppercase g-font-size-14--xs g-font-weight--700  g-letter-spacing--2 g-margin-b-25--xs">Fețele de masă cu motive populare sunt împodobite cu motive populare tradiționale românești și balcanice. Am elaborat două modele de fețe de masă tradiționale – modelul Dunărean și cel Transilvănean. Motivele decorative ale modelului dunărean sunt caracteristice pentru România de sud - Valahia (Muntenia și Oltenia).
+                                        Modelul transilvănean este  inspirat de motivele tradiționale din Transilvania. Fețele de masă sunt bine acceptate atât de străinii care vizitează țară, încât și de românii. Clienții principali ai companiei noastre sunt comercianții orientați către comerțul cu suvenire și restaurantele tradiționale. </p>
 
                                 </div>
                             </div>
@@ -459,7 +460,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături groase cu culori naturale fabricate  din 100 % lână</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -483,7 +484,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături groase cu culori naturale fabricate  din 100 % lână</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -506,7 +507,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături groase cu culori naturale fabricate  din 100 % lână</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -529,7 +530,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături groase cu culori naturale fabricate  din 100 % lână</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -552,7 +553,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături ușoare</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -575,7 +576,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături ușoare</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -598,7 +599,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături ușoare</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -621,7 +622,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături din lână de miel</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -644,7 +645,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături din lână de miel</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -667,7 +668,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături groase colorate  din 100 %  lână </h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -690,7 +691,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături groase colorate  din 100 %  lână </h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -713,7 +714,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">PPături groase colorate  din 100 %  lână </h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -738,7 +739,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană roșie</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -747,7 +748,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -762,7 +763,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană roșie</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -771,7 +772,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -786,7 +787,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană roșie</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -795,7 +796,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -810,7 +811,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană roșie</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -819,7 +820,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -834,7 +835,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană albă</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -843,7 +844,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -858,7 +859,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană albă</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -867,7 +868,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -882,7 +883,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană albă</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -891,7 +892,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -906,7 +907,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană albă</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -915,7 +916,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -930,7 +931,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană ecru</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -939,7 +940,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -954,7 +955,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană ecru</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -963,7 +964,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -978,7 +979,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană ecru</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -987,7 +988,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1002,7 +1003,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană ecru</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1011,7 +1012,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1026,7 +1027,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană verde</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1035,7 +1036,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1049,7 +1050,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană verde</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1058,7 +1059,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1072,7 +1073,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană verde</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1081,7 +1082,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1095,7 +1096,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană verde</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1104,7 +1105,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1119,7 +1120,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană albastră</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1128,7 +1129,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1142,7 +1143,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană albastră</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1151,7 +1152,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1166,7 +1167,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană albastră</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1175,7 +1176,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1190,7 +1191,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană albastră</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1199,7 +1200,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1214,7 +1215,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană portocalie</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1223,7 +1224,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1238,7 +1239,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană portocalie</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1247,7 +1248,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1261,7 +1262,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană portocalie</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1270,7 +1271,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1284,7 +1285,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă dunăreană portocalie</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1293,7 +1294,7 @@
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#" data-toggle="modal" data-target="#modalVEstestveni" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
+                                            <a href="#" data-toggle="modal" data-target="#model_dunavski" class="s-icon s-icon--sm s-icon s-icon--white-bg g-radius--circle">
                                                 <i class="ti-link"></i>
                                             </a>
                                         </li>
@@ -1308,7 +1309,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă transilvăneană</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1331,7 +1332,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă transilvăneană</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1354,7 +1355,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă transilvăneană</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1377,7 +1378,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă transilvăneană</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1401,7 +1402,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă careu roșu </h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1425,7 +1426,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă careu roșu </h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1449,7 +1450,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă careu roșu </h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1473,7 +1474,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Față de masă careu roșu </h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1496,7 +1497,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături bin bumbac jaquard</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1519,7 +1520,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături bin bumbac jaquard</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1542,7 +1543,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături bin bumbac jaquard</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1565,7 +1566,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături din bumbac cu motiv careu – 100 % bumbac</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1588,7 +1589,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături din bumbac cu motiv careu – 100 % bumbac</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1611,7 +1612,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături din bumbac cu motiv careu – 100 % bumbac</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1634,7 +1635,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături din bumbac cu motiv careu – 100 % bumbac</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1657,7 +1658,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături din bumbac cu motiv careu – 100 % bumbac</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1680,7 +1681,7 @@
                                 </div>
                                 <div class=" s-portfolio__caption-hover--cc blue_background">
                                     <div class="g-margin-t-25--xs  g-margin-b-15--xs">
-                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Portfolio Item</h4>
+                                        <h4 class="g-font-size-18--xs g-color--white g-margin-b-5--xs">Pături din bumbac cu motiv careu – 100 % bumbac</h4>
                                     </div>
                                     <ul class="list-inline g-ul-li-lr-5--xs g-margin-b-0--xs">
                                         <li>
@@ -1890,6 +1891,103 @@
                                     <!--<div class="add-to">-->
                                         <!--<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="images/of1.png">Add to Cart</button>-->
                                     <!--</div>-->
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <var id="phone">Variable</var>
+            <var id="email">blaiv@abv.bg</var>
+
+            <div id="model_dunavski" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Model content-->
+                    <div class="modal-content modal-info">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                        </div>
+                        <div class="modal-body modal-spa">
+                            <!--<div class="col-md-5 span-2">-->
+                                <!--<div class="item">-->
+                                    <!--<img src="Resources/img/dunavska_cherveno/3.jpg" class="img-responsive" alt="">-->
+                                <!--</div>-->
+                            <!--</div>-->
+                            <div class="col-md-11 span-1 ">
+                                <h3>Față de masă dunăreană</h3>
+                                <p class="in-para"> Compoziția  ștergarelor artizanate este 100 % acrilică permițând spălarea și utilizarea lor repetată,  evitând estomparea.  </p>
+                                <div class="clearfix"></div>
+                                <!--<h4 class="quick">Dimensiuni:</h4>-->
+
+                                <table class="table table-sm">
+                                    <thead>
+                                    <tr>
+                                        <th colspan="3">Dimensiuni</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>0.24/0.24</td>
+                                        <td>0.30/0.30</td>
+                                        <td>0.40/0.40</td>
+                                    <tr>
+                                        <td>0.50/0.50</td>
+                                        <td>0.70/0.70</td>
+                                        <td>0.75/0.75</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0.80/0.80</td>
+                                        <td>0.90/0.90</td>
+                                        <td>1.00/1.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.20/1.20</td>
+                                        <td>1.40/1.40</td>
+                                        <td>1.50/1.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0.40/0.80</td>
+                                        <td>0.50/1.00</td>
+                                        <td>0.80/1.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1.00/1.50</td>
+                                        <td>1.20/1.50</td>
+                                        <td>1.80/1.50</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td>2.00/1.50</td>
+                                        <td>2.20/1.50</td>
+                                        <td>2.40/1.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2.60/1.50</td>
+                                        <td>3.00/1.50</td>
+                                        <td>3.40/1.50</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Ø 140</td>
+                                        <td colspan="2">Ø150</td>
+
+                                    </tr>
+                                    </tbody>
+                                </table>
+
+                                <p>Dimensiunile posibile nu se limită la cele propuse. Dimensiunile trebuie să fie multipli la 50 cm.</p>
+
+
+                                <p class="quick_desc">În cazul în care doriți să faceți o comandă, vă rugăm să ne contactați la telefon ( noi vorbim limba română) sau ne contactați la adresa de email.
+                                    Noi vă vom oferi cel mai bun preț posibil și o livrare la adresa Dvs. în România.<br><br>
+                                    Lucrăm mai ales cu comercianții.
+                                </p>
+                                <!--<div class="add-to">-->
+                                <!--<button class="btn btn-danger my-cart-btn my-cart-btn1 " data-id="2" data-name="Sunflower Oil" data-summary="summary 2" data-price="9.00" data-quantity="1" data-image="images/of1.png">Add to Cart</button>-->
+                                <!--</div>-->
                             </div>
                             <div class="clearfix"> </div>
                         </div>
