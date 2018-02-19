@@ -6,9 +6,9 @@ var Global = function() {
 
     var text_container = document.getElementById('productText');
 
-    var ids =['pokrivki','vulneniDebeliTsvetni','pokrivki_chervena','debeli_estestveni','pokrivki_transilvanska','pokrivki_bqla',
+    var ids =['vulneniDebeliTsvetni','pokrivki_chervena','debeli_estestveni','pokrivki_transilvanska','pokrivki_bqla',
         'pokrivki_zelena','pokrivki_oranjeva','pokrivki_ekru','pokrivki_sinia','pokrivki_karirana','pokrivki_all','pamuk_kare','pamuk_jakard',
-        'olekoteni','agneshki','vuzglavnici','torbichki','all','service'];
+        'olekoteni','agneshki','vuzglavnici','torbichki','all'];
 
     var pokrivki_only = ['pokrivki','pokrivki_transilvanska','pokrivki_karirana','pokrivki_all', 'pokrivki_bqla', 'pokrivki_zelena', 'pokrivki_oranjeva', 'pokrivki_ekru', 'pokrivki_sinia', 'pokrivki_chervena'];
 
@@ -31,6 +31,10 @@ var Global = function() {
     //handle click
     function click(event)
     {
+
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
       load_text(this.id);
     }
 

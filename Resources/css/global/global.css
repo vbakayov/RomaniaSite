@@ -74,7 +74,10 @@
   background: #ff5000;
   color: #FFFFFF;
 }
-
+.white_clr{
+  color: #ffffff;
+  font-family: Arial;
+}
 
 .btn-custom {
   background-color: hsl(39, 100%, 47%) !important;

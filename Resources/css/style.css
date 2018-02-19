@@ -2780,6 +2780,7 @@ fieldset[disabled] .s-btn {
   background: rgba(19, 177, 205, 0.95);
   /*content: " ";*/
   height: inherit;
+  color: white;
   /*-webkit-transform: translate3d(0, 100%, 0);*/
   /*transform: translate3d(0, 100%, 0);*/
   transition-duration: 400ms;
