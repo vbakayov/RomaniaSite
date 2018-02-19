@@ -3,30 +3,40 @@ var Global = function() {
   'use strict';
     //select the buttons
     var buttons = {};
-    buttons[0] = document.getElementById( 'pokrivki' );
-    buttons[1]= document.getElementById( 'vulneniDebeliTsvetni' );
-    buttons[2] = document.getElementById('pokrivki_chervena');
-    buttons[3] = document.getElementById('debeli_estestveni');
-    buttons[4] = document.getElementById('pokrivki_transilvanska');
-    buttons[5] = document.getElementById('pokrivki_bqla');
-    buttons[6] = document.getElementById('pokrivki_zelena');
-    buttons[7] = document.getElementById('pokrivki_oranjeva');
-    buttons[8] = document.getElementById('pokrivki_ekru');
-    buttons[9] = document.getElementById('pokrivki_sinia');
-    buttons[10] = document.getElementById('pokrivki_karirana');
-    buttons[11] = document.getElementById('pokrivki_all');
-    buttons[12] = document.getElementById('pamuk_kare');
-    buttons[13] = document.getElementById('pamuk_jakard');
-    buttons[14] = document.getElementById('olekoteni');
-    buttons[15] = document.getElementById('agneshki');
-    buttons[16] = document.getElementById('vuzglavnici');
-    buttons[17] = document.getElementById('torbichki');
-    buttons[18] = document.getElementById('all');
-    buttons[19] = document.getElementById('service'); //drugi
+    // buttons[0] = document.getElementById( 'pokrivki' );
+    // buttons[1]= document.getElementById( 'vulneniDebeliTsvetni' );
+    // buttons[2] = document.getElementById('pokrivki_chervena');
+    // buttons[3] = document.getElementById('debeli_estestveni');
+    // buttons[4] = document.getElementById('pokrivki_transilvanska');
+    // buttons[5] = document.getElementById('pokrivki_bqla');
+    // buttons[6] = document.getElementById('pokrivki_zelena');
+    // buttons[7] = document.getElementById('pokrivki_oranjeva');
+    // buttons[8] = document.getElementById('pokrivki_ekru');
+    // buttons[9] = document.getElementById('pokrivki_sinia');
+    // buttons[10] = document.getElementById('pokrivki_karirana');
+    // buttons[11] = document.getElementById('pokrivki_all');
+    // buttons[12] = document.getElementById('pamuk_kare');
+    // buttons[13] = document.getElementById('pamuk_jakard');
+    // buttons[14] = document.getElementById('olekoteni');
+    // buttons[15] = document.getElementById('agneshki');
+    // buttons[16] = document.getElementById('vuzglavnici');
+    // buttons[17] = document.getElementById('torbichki');
+    // buttons[18] = document.getElementById('all');
+    // buttons[19] = document.getElementById('service'); //drugi
 
     var text_container = document.getElementById('productText');
+
+    var ids =['pokrivki','vulneniDebeliTsvetni','pokrivki_chervena','debeli_estestveni','pokrivki_transilvanska','pokrivki_bqla',
+        'pokrivki_zelena','pokrivki_oranjeva','pokrivki_ekru','pokrivki_sinia','pokrivki_karirana','pokrivki_all','pamuk_kare','pamuk_jakard',
+        'olekoteni','agneshki','vuzglavnici','torbichki','all','service'];
+
     var dunavski = ['pokrivki_bqla', 'pokrivki_zelena', 'pokrivki_oranjeva', 'pokrivki_ekru', 'pokrivki_sinia', 'pokrivki_chervena'];
 
+    //get refs to buttons
+    for (var z = 0; z < ids.length; z++) {
+            buttons[z]= document.getElementById(ids[z]);
+
+    }
 
     //add event listeners
     for (var k = 0; k < Object.keys(buttons).length; k++) {
