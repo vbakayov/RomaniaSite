@@ -51,39 +51,41 @@ var Global = function() {
         }
         else if (elementId === "debeli_estestveni")
         {
-            text_container.innerText = "vulneniDebeliEstestveniTekst";
+            text_container.innerText = "Societatea Blaiv oferă o mare varietate de pături: din bumbac, din lână, pături ușoare și altele. Materiile păturilor provin mai ales din produse ecologice – bumbac și lână, Din acest motiv, păturile noastre sunt comercializate oriunde în lume. Compania noastră comercializează păturile în România cu succes. Clienții noștri sunt mai ales din domeniul textilelor de casă, suvenirelor și designul interior. \n \n" +
+                "Fabricate doar cu culori naturale, din lână albă și neagră, fără coloranți și materiale artificiali și chimice. Păturile se încadrează în categoria „Pături groase”. Au fost spălate în apă curată de munte, ceea ce garantează durabilitatea, rezistența și dimensiunile lor. 100 % lână.   \n";
         }
         else if (elementId === "vulneniDebeliTsvetni")
         {
-            text_container.innerText = "vulneniDebeliTsvetni";
+            text_container.innerText = "Societatea Blaiv oferă o mare varietate de pături: din bumbac, din lână, pături ușoare și altele. Materiile păturilor provin mai ales din produse ecologice – bumbac și lână, Din acest motiv, păturile noastre sunt comercializate oriunde în lume. Compania noastră comercializează păturile în România cu succes. Clienții noștri sunt mai ales din domeniul textilelor de casă, suvenirelor și designul interior. \n \n" +
+                                    "Potrivite pentru lunile de iarnă reci. Produse din lână de înaltă calitate. Păturile se încadrează în categoria „Pături groase”. Au fost spălate în apă curată de munte, ceea ce garantează durabilitatea, rezistența și dimensiunile lor. 100 % lână.  \n";
         }
         else if (elementId === "pamuk_kare")
         {
-            text_container.innerText = "pamuk_kare";
+            text_container.innerText = "Numeroase culori proaspete și variate care poartă simțul verii. Sunt fabricate din bumbac de înaltă calitate. Bumbacul este albit și vopsit printr-o tehnologie inofensivă pentru a garanta calitatea și proprietățile bune ale păturilor. \n";
         }
         else if (elementId === "pamuk_jakard")
         {
-            text_container.innerText = "pamuk_jakard";
+            text_container.innerText = "Pături din bumbac jaquard – 100 % bumbac. Culori de vară proaspete și variate. Greutatea lor aproximativă este 2 kg, ceea ce le face potrivite atât pentru vremea caldă, încât și pentru vremea rece. Păturile au două fețe – combinația culorilor de pe fiecare față este diferită. ";
         }
         else if (elementId === "olekoteni")
         {
-            text_container.innerText = "olekoteni";
+            text_container.innerText = "Datorită greutății și compoziției sale, păturile sunt potrivite atât pentru lunile de vară, încât și pentru iernile reci. Păturile au greutate aproximativă de 1,3-2,00 kg. Le fabricăm în variantele 100 % lână și 60 % lână, 40% poliester. ";
         }
         else if (elementId === "agneshki")
         {
-            text_container.innerText = "agneshki";
+            text_container.innerText = "Virgin wool  este lâna obținută din prima rasa a mielului. Aceasta este lâna cea mai moale, cea mai fină și cu cea mai înaltă calitate. Conținut 70 % lână de miel, 30 % poliester. ";
         }
         else if (elementId === "vuzglavnici")
         {
-            text_container.innerText = "vuzglavniciTekst";
+            text_container.innerText = "vuzglavniciTekst ?????????????????";
         }
         else if (elementId === "torbichki")
         {
-            text_container.innerText = "torbichki";
+            text_container.innerText = "torbichki ??????????????????????";
         }
         else if (elementId === "all")
         {
-            text_container.innerText = "all text";
+            text_container.innerText = "all text ???????????????????????";
         }
 
 
