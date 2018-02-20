@@ -10,6 +10,22 @@ html {
   padding-top: 15px;
 }
 
+.position_small_text{
+    margin-left: -20px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.position_small_text_2{
+    margin-left: -30px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+.padding_left_30{
+    padding-left: 30px;
+}
+
 
 .stretch{
   /* Will stretch to specified width/height */
