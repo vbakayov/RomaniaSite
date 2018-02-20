@@ -1560,7 +1560,7 @@ fieldset[disabled] .s-btn {
 .s-mockup-v2 {
   position: absolute;
   left: 6.25rem;
-  bottom: 22rem;
+  bottom: 30rem;
   width: 25rem;
   height: auto;
 }
@@ -1585,7 +1585,7 @@ fieldset[disabled] .s-btn {
   .s-mockup-v2 {
     position: absolute;
     left: 5rem;
-    bottom: 20rem;
+    bottom: 27rem;
     width: 18.75rem;
     height: auto;
   }
@@ -1596,7 +1596,7 @@ fieldset[disabled] .s-btn {
 .s-mockup-v3 {
   position: absolute;
   right: 6.25rem;
-  bottom: 22rem;
+  bottom: 30rem;
   width: 25rem;
   height: auto;
 }
@@ -1621,7 +1621,7 @@ fieldset[disabled] .s-btn {
   .s-mockup-v3 {
     position: absolute;
     right: 5rem;
-    bottom: 20rem;
+    bottom: 27rem;
     width: 14.75rem;
     height: auto;
   }
