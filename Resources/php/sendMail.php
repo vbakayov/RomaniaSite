@@ -6,7 +6,7 @@
 
  function sendFormMail(){
 
-      require_once('../../www/php/PHPMailerAutoload.php');
+      require_once('../../../www/Resources/php/PHPMailerAutoload.php');
 
       // Check if the "Sender's Email" input field is filled out
       $mail = new PHPMailer(); // create a new object

@@ -13,11 +13,13 @@
             'table, th, td {border: 1px solid grey}\n' +
             'th, td {text-align: center; vertical-align: middle;}\n' +
             'p {font-weight: bold; margin-left:20px }\n' +
+            'h4 { margin-left:20px;font-weight: unset }\n' +
             'table { width:94%; margin-left:3%; margin-right:3%}\n' +
             'div.bs-table-print { text-align:center;}\n' +
             '</style></head><title>Dimensiunile</title><body>' +
             '<p>Printed on: ' + new Date + ' </p>' +
             '<p>http://www.prosopartizanat.ro/<p>'+
+            '<h4>În cazul în care doriți să faceți o comandă, vă rugăm să ne contactați la telefon ( noi vorbim limba română) tel  sau ne contactați la adresa de email. Noi vă vom oferi cel mai bun preț posibil și o livrare la adresa Dvs. în România. <h4>'+
             '<div class="bs-table-print">' + table + "</div></body></html>";
     }
     $.extend($.fn.bootstrapTable.defaults, {
