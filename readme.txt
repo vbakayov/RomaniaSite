@@ -1,8 +1,8 @@
 Author: 		Viktor
-Website: 		http://www.vbakayov.github.io
+Website: 		http://www.prosopartizanat.ro/
 Contact: 		viktorbakayov@gmail.com
 
 
-Happy coding!
+Status: Finished
 
 
