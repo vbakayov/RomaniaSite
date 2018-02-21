@@ -135,6 +135,7 @@ html {
 }
 
 .action_button {
+    min-width: 150px;
   padding: 12px 32px;
   border: 1px solid rgba(255, 255, 255, 0.6);
   border-radius: 2px;
@@ -1091,7 +1092,7 @@ fieldset[disabled] .s-btn {
   position: relative;
   height: 3.125rem;
   font-size: 0.8125rem;
-  font-weight: 400;
+  font-weight: bold;
   color: rgba(255, 255, 255, 0.7);
   border: none;
   border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.5);
@@ -1099,7 +1100,7 @@ fieldset[disabled] .s-btn {
   box-shadow: none;
   border-radius: 0;
   letter-spacing: .1rem;
-  text-transform: uppercase;
+  /*text-transform: uppercase;*/
   padding: 0 1.25rem 0 0;
   transition-duration: 300ms;
   transition-property: all;
